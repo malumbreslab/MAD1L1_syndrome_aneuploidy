@@ -1,12 +1,24 @@
 # MAD1L1_syndrome_aneuploidy
 
+## Description
+
 This github repository contains the analysis code used in "Bilallelic germline mutations in MAD1L1 induce a syndrome of aneuploidy with high tumor susceptibility" published in Science Advances:
 
-Link: 
+Link: https://biorxiv.org/cgi/content/short/2022.08.08.503198v1
 
-The files are organised into three folders:
+## Table of contents
 
-- data: which contains all the genomic and transcriptomic data required to perform the analyses described in the paper
-- scripts: contains the code to reproduce all analyses
-- resources: contains additional databases (eg gene lists) which are required by the scripts.
+- [Data](#Data)
+- [Scripts](#Scripts)
 
+
+## Data
+
+scRNA-seq data are available at the GEO repository under the accession code: [GSE197267](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE197267). Proteomics data are available at ProteomeXchange (Project accession: PXD035765). R and Python notebooks used in this work are accessible at [Zenodo](https://zenodo.org/record/6960105#.YweMyi8lMTs) and [malumbreslab](https://github.com/malumbreslab/MAD1L1_syndrome_aneuploidy) Github. All data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary Materials.
+
+## Scripts
+
+- Preprocessing.ipynb: Using as input files CellRanger outputs, it is done a preprocessing in python code of single cell data from patient, father, mother control1 and control2.
+- scRNAseq.ipynb: contains the python code to reproduce all single cell analysis (statistics, visualization, differential expression, functional analysis, aneuploidy)
+- inferCNV.ipynb: contains the python code to infer copy number variations from single cell data.
+- Interaction.ipynb: contains the python code to manage interaction data from [cellphoneDB](https://github.com/Teichlab/cellphonedb).
