@@ -18,7 +18,7 @@ scRNA-seq data are available at the GEO repository under the accession code: [GS
 
 ## Scripts
 
-- Preprocessing.ipynb: Using as input files CellRanger outputs, it is done a preprocessing in python code of single cell data from patient, father, mother control1 and control2.
-- scRNAseq.ipynb: contains the python code to reproduce all single cell analysis (statistics, visualization, differential expression, functional analysis, aneuploidy)
-- inferCNV.ipynb: contains the python code to infer copy number variations from single cell data.
-- Interaction.ipynb: contains the python code to manage interaction data from [cellphoneDB](https://github.com/Teichlab/cellphonedb).
+- [Preprocessing.ipynb](/scripts/Preprocessing.ipynb): Using as input files CellRanger outputs, it is done a preprocessing in python code of single cell data from patient, father, mother control1 and control2.
+- [scRNAseq.ipynb](/scripts/scRNAseq.ipynb): contains the python code to reproduce all single cell analysis (statistics, visualization, differential expression, functional analysis, aneuploidy)
+- [inferCNV.ipynb](/scripts/inferCNV.ipynb): contains the python code to infer copy number variations from single cell data.
+- [Interaction.ipynb](/scripts/Interaction.ipynb): contains the python code to manage interaction data from [cellphoneDB](https://github.com/Teichlab/cellphonedb).
