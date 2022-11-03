@@ -4,7 +4,7 @@
 
 This github repository contains the analysis code used in "Bilallelic germline mutations in MAD1L1 induce a syndrome of aneuploidy with high tumor susceptibility" published in Science Advances:
 
-Link: https://biorxiv.org/cgi/content/short/2022.08.08.503198v1
+Link: https://www.science.org/doi/10.1126/sciadv.abq5914
 
 ## Table of contents
 
